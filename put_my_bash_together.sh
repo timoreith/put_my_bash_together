@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ -d "$HOME" ]; then
-    if [ -f $HOME/.bash_profile ]; then
+    if [ -f "$HOME/.bash_profile" ]; then
         rm $HOME/.bash_profile
     fi
     echo "Fetching .bash_profile"
