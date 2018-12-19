@@ -1,5 +1,8 @@
 #!/bin/bash
 if [ -d "$HOME" ]; then
+    if [ -f "$file" $HOME/.bash_profile ]; then
+        rm $HOME/.bash_profile
+    fi
     echo "Fetching .bash_profile"
     wget -q https://gist.githubusercontent.com/timoreith/dbad36a60dc187fdbf1b6c9b2ebc5509/raw/f28e4295e13cd63c0ecf299d23a787e58756393c/.bash_profile -O $HOME/.bash_profile
     echo "Fetching .bash_aliases"
