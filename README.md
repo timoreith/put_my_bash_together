@@ -1,6 +1,6 @@
 # put_my_bash_together
 
-Download the following files in the user's home directory:
+Downloads the following files in the user's home directory:
 
 * .bash_profile
 * .bash_prompt
