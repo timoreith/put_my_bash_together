@@ -9,7 +9,9 @@ Downloads the following files in the user's home directory:
 
 ## Usage
 
-`curl -s https://raw.githubusercontent.com/timoreith/put_my_bash_together/master/put_my_bash_together.sh | bash`
+`curl -s https://raw.githubusercontent.com/timoreith/put_my_bash_together/master/put_my_bash_together.sh | bash [backup]`
+
+Use the "backup" option to back up existing files.
 
 ## Credits
 
