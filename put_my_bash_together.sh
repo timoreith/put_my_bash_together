@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -d "$HOME" ]; then
     if [ -f "$HOME/.bash_profile" ]; then
-        rm "$HOME/.bash_profile"
+        mv "$HOME/.bash_profile" "$HOME/.bash_profile.bak"
     fi
     echo "Fetching .bash_profile"
     wget -q https://gist.githubusercontent.com/timoreith/dbad36a60dc187fdbf1b6c9b2ebc5509/raw/.bash_profile -O $HOME/.bash_profile
