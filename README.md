@@ -11,7 +11,7 @@ Downloads the following files in the user's home directory:
 
 `curl -s https://raw.githubusercontent.com/timoreith/put_my_bash_together/master/put_my_bash_together.sh | bash [backup]`
 
-Use the "backup" option to back up existing files. Otherwise the files will be overwritten.
+Use the optional "backup" option to back up existing files. Otherwise the files will be overwritten.
 
 ## Credits
 
