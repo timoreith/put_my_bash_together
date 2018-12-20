@@ -5,7 +5,7 @@ Downloads the following files in the user's home directory:
 * .bash_profile
 * .bash_prompt
 * .bash_aliases
-* .vimrc
+* .vimrc (https://gist.github.com/timoreith/a767f181a16b6881aad9f95f1dc5e509)
 
 ## Usage
 
